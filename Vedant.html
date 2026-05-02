@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedant Thakare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0; padding:0; background: url('Background.jpg') no-repeat center center fixed; background-size: cover;">
+
+  <header style="position: relative; display: flex; align-items: center;">
+
+    <marquee direction="right" style="width: 450px; overflow: hidden; color: rgb(255, 82, 186); font-size: larger;">
+      Welcome to Vedant's Portfolio !
+    </marquee>
+
+  <button onclick="myAudio.play()" style="background: none;"><img src="Ethicalvedant.jpeg" style="height: 50px; width: 50px; margin-left: 1vh;"></button>
+  <audio id="myAudio" src="welcome.mp4"></audio>
+
+    <h1 style="position: absolute;left: 50%; transform: translateX(-50%); font-size: 42px; font-weight: bold; background: linear-gradient(90deg, #d62c0e, #08d70f);
+    background-clip: text; color: transparent;">Vedant Thakare</h1>
+    
+  </header>
+
+
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <h2>Menu</h2>
+
+      <a href="#" onclick="showSection('resume'); return false;">Resume</a>
+      <a href="#" onclick="showSection('about'); return false;">About Me</a>
+      <a href="#" onclick="showSection('interest and hobbies'); return false;">Interest and Hobbies</a>
+      <a href="#" onclick="showSection('career goal'); return false;">Career Goal</a>
+      <a href="#" onclick="showSection('skills'); return false;">Skills</a>
+      <a href="#" onclick="showSection('languages'); return false;">Skills preview and Languages</a>
+      <a href="#" onclick="showSection('certificate'); return false;">Certificates</a>
+      <a href="#" onclick="showSection('projects'); return false;">Projects</a>
+      <a href="#" onclick="showSection('testimonials'); return false;">Testimonials</a>
+      <a href="#" onclick="showSection('contact'); return false;">Contact</a>
+      <a href="#" onclick="showSection('connect with me'); return false;">Connect With Me</a>
+      <a href="#" onclick="showSection('location'); return false;">Location</a>
+      <a href="#" onclick="showSection('acknowledgement'); return false;">Acknowledgement</a>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+      <div id="resume" class="section active"
+        style="display:flex; justify-content:center; align-items:center; min-height:80vh; ">
+
+        <center style="border-color: rgb(43, 180, 93); border-width: 10px; border-style: dotted; border-radius: 4vh;">
+          <div style="background:linear-gradient(135deg,#ffffff,#f3f3f3);  
+                padding:80px 80px; border-radius:20px; 
+                text-align:center; 
+                box-shadow:0 10px 30px rgba(0,0,0,0.25); 
+                max-width: 320px; width:100%;">
+
+            <!-- Profile Image -->
+            <img src="vedant.jpg" style="width:180px; height:200px; border-radius: 2vh; 
+                    border:4px solid #ff7e5f; margin-bottom:15px; 
+                    object-fit:cover; box-shadow:0 6px 15px rgba(0,0,0,0.2);">
+            <h2 style="margin:8px 0; font-size:24px; color:#333;">
+              📄 My Resume
+            </h2>
+            <p style="color:#27ae60; margin:8px 0 20px; font-size:15px;">
+              Download my resume below
+            </p>
+            <a href="resume.jpg" download style="padding:10px 12px; 
+                  background:linear-gradient(45deg,#ff7e5f,#feb47b); 
+                  color:#fff; text-decoration:none; border-radius:25px;
+                  font-size:15px; font-weight:bold; 
+                  transition:0.3s; 
+                  box-shadow:0 5px 15px rgba(0,0,0,0.3);">⬇ Download Resume</a>
+
+          </div></center>
+
+      </div>
+
+      <div id="about" class="section">
+        <center>
+          <div
+            style="max-width:700px; padding:25px 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.2); text-align:center;">
+
+            <h2 style="margin-bottom:15px; font-size:28px; letter-spacing:1px;">
+              ✨ About Me
+            </h2>
+
+            <p style="font-size:18px; line-height:1.6; margin:0;">
+              I am Vedant, a passionate Software Engineering student with a strong interest in building efficient and
+              user-friendly applications. I enjoy learning new technologies and improving my coding skills through
+              real-world projects.
+            </p>
+
+          </div>
+        </center>
+      </div>
+
+      <div id="interest and hobbies" class="section">
+        <center>
+          <div
+            style="max-width:700px; padding:25px 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.2); text-align:center;">
+
+            <h2 style="margin-bottom:15px; font-size:28px; letter-spacing:1px;">
+              ✨ Interest and Hobbies
+            </h2>
+
+            <p style="font-size:18px; line-height:1.6; margin:0;">
+              <li>Learning New Technologies</li>
+              <li>Exploring the natural and historical moments with travelling</li>
+              <li>Making arts,drawing,painting,listening songs,playing and watching cricket</li>
+              <li>Doing innovative projects by software and hardware interaction</li>
+              
+            </p>
+
+          </div>
+        </center>
+      </div>
+
+      <div id="career goal" class="section">
+        <center>
+          <div
+            style="max-width:700px; padding:25px 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.2); text-align:center;">
+
+            <h2 style="margin-bottom:15px; font-size:28px; letter-spacing:1px;">
+              ✨ My Career Goal
+            </h2>
+
+            <p style="font-size:18px; line-height:1.6; margin:0;">
+              To build a strong career in software engineering by developing efficient, user-friendly, and innovative
+              applications. I aim to continuously improve my technical and problem-solving skills while contributing to
+              the growth of an organization.
+            </p>
+
+          </div>
+        </center>
+      </div>
+
+
+
+
+      <div id="skills" class="section"
+        style="max-width: 1000px; margin:30px auto; padding:20px; background: white; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
+
+        <h2 style="text-align:center; color:#2c3e50; margin-bottom:25px;">
+          My Skills
+        </h2>
+
+        <div
+          style="display:grid; grid-template-columns: repeat(2, 1fr); grid-gap:30px; justify-items:center; align-items:start;">
+
+          <!-- Row 1 -->
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              💻 Web Development (HTML, CSS, C, Python)
+            </li>
+            <img src="💻 Web Development (HTML, CSS, C, Python).jpg"
+              style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              🤖 Learning New Technologies & AI Tools
+            </li>
+            <img src="🤖 Learning New Technologies & AI Tools.jpg"
+              style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+          <!-- Row 2 -->
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              🔧 Building Innovative Projects
+            </li>
+            <img src="🔧 Building Innovative Projects.jpg"
+              style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              📊 Problem Solving & Logical Thinking
+            </li>
+            <img src="📊 Problem Solving & Logical Thinking.jpg"
+              style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+          <!-- Row 3 -->
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              🎨 Creative Designing
+            </li>
+            <img src="🎨 Creative Designing.jpg" style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+          <div style="text-align:center;">
+            <li
+              style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+              📚 Continuous Learning & Self-Improvement
+            </li>
+            <img src="📚 Continuous Learning & Self-Improvement.jpg"
+              style="width:100%; max-width:250px; border-radius:10px;">
+          </div>
+
+        </div>
+
+        <!-- Single skill at bottom -->
+        <div style="text-align:center; margin-top:40px;">
+          <li style="list-style:none; background:#f0f8ff; padding:10px; border-radius:6px; font-size:16px; color:#333;">
+            🌱 Working on Real-life Applications
+          </li>
+          <img src="🌱 Working on Real-life Applications.jpg"
+            style="width:100%; max-width:250px; border-radius:10px;">
+        </div>
+
+      </div>
+
+      <section id="languages" class="section">
+        <h2>Languages I’m Learning</h2>
+        
+        <div class="language">
+          <p>HTML</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;">75%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>CSS</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;">60%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>C</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>Python</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>Hindi</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;">85%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>Marathi</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;">95%</div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>English</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <div id="certificate" class="section">
+        <div class="certificate-box">
+
+          <h2>My Certification</h2>
+
+          <!-- 12 ITEMS GRID -->
+          <div class="cert-grid">
+
+            <div class="cert-item"><a href="Nasscom.jpg" download><img src="Nasscom.jpg"></a>
+              <p>Nasscom</p>
+            </div>
+            <div class="cert-item"><a href="Claude 101.jpg" download><img src="Claude 101.jpg"></a>
+              <p>Claude 101</p>
+            </div>
+            <div class="cert-item"><a href="AI Fluency - Framework & Foundations.jpg" download><img
+                  src="AI Fluency - Framework & Foundations.jpg"></a>
+              <p>AI Fluency - Framework & Foundations</p>
+            </div>
+            <div class="cert-item"><a href="AI Fluency for students.jpg" download><img
+                  src="AI Fluency for students.jpg"></a>
+              <p>AI Fluency for students</p>
+            </div>
+            <div class="cert-item"><a href="AI Fluency for nonprofits.jpg" download><img
+                  src="AI Fluency for nonprofits.jpg"></a>
+              <p>AI Fluency for nonprofits</p>
+            </div>
+            <div class="cert-item"><a href="MIT python 1.jpg" download><img src="MIT python 1.jpg"></a>
+              <p>MIT python 1</p>
+            </div>
+            <div class="cert-item"><a href="MIT python 2.jpg" download><img src="MIT python 2.jpg"></a>
+              <p>MIT python 2</p>
+            </div>
+            <div class="cert-item"><a href="Non-MIT Python 1.jpg" download><img src="Non-MIT Python 1.jpg"></a>
+              <p>Non-MIT Python 1</p>
+            </div>
+            <div class="cert-item"><a href="KNC bootcamp.jpg" download><img src="KNC bootcamp.jpg"></a>
+              <p>KNC bootcamp</p>
+            </div>
+            <div class="cert-item"><a href="Kali Linux Course - Simplilearn.jpg" download><img
+                  src="Kali Linux Course - Simplilearn.jpg"></a>
+              <p>Kali Linux Course - Simplilearn</p>
+            </div>
+            <div class="cert-item"><a href="Linux Course - Mind Luster.jpg" download><img
+                  src="Linux Course - Mind Luster.jpg"></a>
+              <p>Linux Course - Mind Luster</p>
+            </div>
+            <div class="cert-item"><a href="IYMC qualification.jpg" download><img src="IYMC qualification.jpg"></a>
+              <p>IYMC qualification</p>
+            </div>
+          </div>
+
+          <!-- REMAINING 2 -->
+          <div class="cert-bottom">
+            <div class="cert-item"><a href="Career Management Essentials.jpg" download><img
+                  src="Career Management Essentials.jpg"></a>
+              <p>Career Management Essentials</p>
+            </div>
+            <div class="cert-item"><a href="Learn JavaScript Codecademy.jpg" download><img
+                  src="Learn JavaScript Codecademy.jpg"></a>
+              <p>Learn JavaScript Codecademy</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div id="projects" class="section"
+        style="max-width:650px; margin:30px auto; padding:20px; background:#ffffff; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
+        <h2 style="text-align:center; color:#2c3e50; margin-bottom:20px;">
+          My Projects
+        </h2>
+        <ul style="list-style:none; padding:0; font-size:16px; color:#333; line-height:1.7;">
+          <li
+            style="margin:12px 0; padding:12px; background:#f9f9f9; border-left:5px solid #1abc9c; border-radius:6px;">
+            <strong style="color:#34495e;">Design Thinking :</strong><br>
+            Automatic Solar Lamp
+
+            <!-- Image added here -->
+            <div style="text-align:center; margin-top:10px;">
+              <img src="Jugnu.jpg" alt="Automatic Solar Lamp"
+                style="width:100%; max-width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+            </div>
+          </li>
+          <li
+            style="margin:12px 0; padding:12px; background:#f9f9f9; border-left:5px solid #1abc9c; border-radius:6px;">
+            <strong style="color:#34495e;">Design Thinking :</strong><br>
+            Automatic Solar Lamp
+
+            <!-- Image added here -->
+            <div style="text-align:center; margin-top:10px;">
+              <img src="Science exhibition.jpg" alt="Automatic Solar Lamp"
+                style="width:100%; max-width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+            </div>
+          </li>
+          <li
+            style="margin:12px 0; padding:12px; background:#f9f9f9; border-left:5px solid #1abc9c; border-radius:6px;">
+            <strong style="color:#34495e;">Websites :</strong><br>
+            1] User Data-Capturing Website (Gaming Website)<br>👉🏻https://ethicalsoftenggvedant.netlify.app/
+            <!-- Image added here -->
+            <div style="text-align:center; margin-top:10px;">
+              <img src="Gaming Website.jpg" alt="Gaming Website"
+                style="width:100%; max-width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+            </div>
+
+            2] My Family Website<br>👉🏻https://aptitudemaster.github.io/Vedantfamily/
+            <!-- Image added here -->
+            <div style="text-align:center; margin-top:10px;">
+              <img src="Vedant family website.jpg" alt="Vedant Family Website"
+                style="width:100%; max-width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      <section id="testimonials" class="section">
+        <center>
+          <h2 style="color: #ff00ff;">Mentor Testimonials</h2>
+
+          <div class="testimonial-container">
+
+            <div class="testimonial-card">
+              <p>"Vedant is a highly dedicated and creative developer. His problem-solving skills are excellent."</p>
+              <h4>— Dr. Prafulla Hatte Sir</h4>
+            </div>
+
+            <div class="testimonial-card">
+              <p>"He consistently delivers quality work and shows great enthusiasm in robotics and programming."</p>
+              <h4>— Vinayak Kulkarni Sir</h4>
+            </div>
+
+            <div class="testimonial-card">
+              <p>"Vedant has strong technical knowledge and a passion for learning new technologies."</p>
+              <h4>— Ankush Patil Sir</h4>
+            </div>
+
+          </div>
+        </center>
+      </section>
+
+      <div id="contact" class="section">
+        <div
+          style="max-width:420px; margin:30px auto; padding:25px; background:#1e1e2f; border-radius:12px; box-shadow:0 6px 15px rgba(0,0,0,0.4); color:white;">
+
+          <h2 style="text-align:center; margin-bottom:20px;">Contact Me</h2>
+    
+          <form action="mailto:Vedantking2007@gmail.com" method="post" enctype="text/plain">
+
+            <input type="text" name="Name" placeholder="Your Name" required
+              style="width:100%; padding:10px; margin:10px 0; border:none; border-radius:5px; background:#2c2c3e; color:white;">
+
+            <input type="email" name="Email" placeholder="Your Email" required
+              style="width:100%; padding:10px; margin:10px 0; border:none; border-radius:5px; background:#2c2c3e; color:white;">
+
+            <textarea name="Message" placeholder="Your Message" required
+              style="width:100%; padding:10px; margin:10px 0; border:none; border-radius:5px; background:#2c2c3e; color:white; height:100px;"></textarea>
+
+            <button type="submit"
+              style="width:100%; padding:12px; background:#00c6ff; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer; box-shadow:0 0 10px #00c6ff;">
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+      <section id="connect with me" class="section">
+        <center>
+          <h2 style="color: #25cd15;">Connect with Me</h2>
+        </center>
+
+        <div class="social-links">
+          <a href="http://www.youtube.com/@vedantthakare3847" target="_blank">YouTube</a>
+          <a href="https://www.linkedin.com/in/vedant-thakare-975942382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">LinkedIn</a>
+          <a href="https://www.instagram.com/ethicalvedant?igsh=eDAwZ2p0bmN1M2N5" target="_blank">Instagram</a>
+          <a href="https://www.facebook.com/share/17htPnQ5y7/" target="_blank">Facebook</a>
+          <a href="mailto:Vedantking2007@gmail.com?subject=Contact&body=Hey Vedant, I want to contact to you!">Gmail</a>
+        </div>
+      </section>
+
+
+      <div id="location" class="section">
+        <center>
+          <h2 style="color: white;">My Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59560.25727156876!2d77.02386928225148!3d21.09198155915685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd71a35534dcdeb%3A0x715fdee40a774d06!2sAkot%2C%20Maharashtra%20444101!5e0!3m2!1sen!2sin!4v1775245733155!5m2!1sen!2sin"
+            width="600" height="450" style="border:0; border-radius: 4vh;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+      </div>
+
+      <div id="acknowledgement" class="section">
+        <center>
+          <div
+            style="max-width:700px; padding:25px 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.2); text-align:center;">
+
+            <h2 style="margin-bottom:15px; font-size:28px; letter-spacing:1px;">
+              ✨ Acknowledgement
+            </h2>
+
+            <p style="font-size:18px; line-height:1.6; margin:0;">
+              I would like to express my sincere gratitude to all those who have contributed to the development of this portfolio. I am deeply thankful to my mentors and professors for their invaluable guidance, technical insight, and unwavering support throughout my journey. I extend my appreciation to my peers and collaborators whose constructive feedback and shared knowledge have continuously sharpened my skills. I am also grateful to the open-source community, whose tools, frameworks, and collective wisdom have been instrumental in shaping the projects presented here. Finally, I wish to acknowledge my family and friends for their patience and encouragement, which have been a constant source of motivation.
+            </p>
+
+          </div>
+        </center>
+      </div>
+
+    </div>
+
+  </div>
+  <footer>
+    <p>© 2026 Vedant Thakare | All Rights Reserved</p>
+  </footer>
+  <script>
+    function showSection(sectionId) {
+      var sections = document.querySelectorAll('.section');
+
+      sections.forEach(function (sec) {
+        sec.style.display = "none";
+      });
+
+      var activeSection = document.getElementById(sectionId);
+
+      // Keep flex layout for resume
+      if (sectionId === "resume") {
+        activeSection.style.display = "flex";
+      } else {
+        activeSection.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
